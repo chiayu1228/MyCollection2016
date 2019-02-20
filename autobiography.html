@@ -1,0 +1,166 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chia-yu's Work Collection</title>
+<link href="css/style2.css" rel="stylesheet" type="text/css">
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="favicon.png" type="image/ico">
+
+<script type="text/javascript" src="js/jquery.js"></script>
+
+
+<style type="text/css">
+
+#toggle-view {
+	list-style:none;	
+	font-family:sans-serif;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+	#toggle-view li {
+		margin:10px;
+		border-bottom:1px solid #ccc;
+		position:relative;
+		cursor:pointer;
+	}
+	
+	#toggle-view h3 {
+		margin:15px 0;
+		font-size:115%;
+		color: #333
+	}
+
+	#toggle-view span {
+	position: absolute;
+	right: 5px;
+	top: 0;
+	color: #ccc;
+	font-size: 100%;
+	}
+	
+	#toggle-view p {
+	    margin:5px 25px;
+		display:none;
+	}	
+</style>
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+	
+	$('#toggle-view li').click(function () {
+
+		var text = $(this).children('p');
+
+		if (text.is(':hidden')) {
+			text.slideDown('200');
+			$(this).children('span').html('-');		
+		} else {
+			text.slideUp('200');
+			$(this).children('span').html('+');		
+		}
+		
+	});
+
+});
+
+</script>
+
+<style type="text/css">
+body {
+	background-image: url(image/sachi2_95a_1.png);
+	background-repeat: repeat;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+<!-- 
+若要深入了解檔案頂端 html 標籤周圍的條件式註解:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+如果您使用自訂的 Modernizr 組建 (http://www.modernizr.com/)，請執行下列動作:
+* 在這裡將連結插入您的 js
+* 將下列連結移至 html5shiv
+* 將「no-js」類別新增至頂端的 html 標籤
+* 如果您在 Modernizr 組建中包含 MQ Polyfill，也可以將連結移至 respond.min.js 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="js/respond.min.js"></script>
+
+<a style="display:scroll;position:fixed;bottom:15px;right:-40px;" href="#" title="Back to Top"><img src="image/TOP.jpg" alt="Back to Top" border="0" width="60%" height="60%" /></a>
+
+</head>
+<body>
+<div class="gridContainer clearfix">
+  <div id="header"> <a href="index.html"><img src="image/LOGO.png" alt="Chia-yu's Work Collection"></a>
+  </div>
+  <div id="banner"><img src="image/Autobiography.png" alt="autobiography" name="img" id="img">
+  </div>
+  <div id="content">
+<ul id="toggle-view">
+	<li>
+		<h3>■ 人格特質</h3>
+		<span>+</span>
+		<p>
+1. 為人溫和有禮，擁有良好的溝通能力與敏銳的觀察力，做事穩重謹慎。<br>
+2. 對於新的事物能夠快速學習，到新的環境也能很快適應。
+		</p>
+	</li>
+	<li>
+		<h3>■ 學習過程</h3>
+		<span>+</span>
+		<p>
+1. 大學就學期間，協助畢籌會傳媒小組宣傳影片製作。<br>
+2. A+創意季設計競賽與同學共同努力達成目標，學習到團隊合作的重要性。<br>
+3. 在本土生命創作繪本比賽，展現手繪的能力獲得入選。<br>
+4. 內灣美食漫畫競賽單格漫畫成人組中，更獲得第一名與市長合照的殊榮。<br>
+5. 美工軟體學習方面，取得ACA國際認證與Painter結業證書。
+        </p>
+	</li>
+	<li>
+		<h3>■ 工作經驗</h3>
+		<span>+</span>
+		<p>
+1. 大三暑假選擇到國美館圖書資訊組實習，協助主任處理工作相關的行政事宜。<br>
+2. 研究所時到系辦工讀，除了學習如何與學生溝通接洽外，也幫忙設計系上招生與演講的各類海報。<br>
+3. 另外在指導教授的介紹下，承接許多產學合作的案子，有理學院的招生DM、事經所與特殊中心的網站與各系所文宣。<br>
+4. 此外與業界合作架設雲端教學系統的過程當中，更讓我了解到不同領域整合的技巧與注意事項。<br>
+5.  研究所畢業後經由校內所長介紹與推薦，有幸到中國內陸地區的教育測量公司當任視覺設計師，讓我在實作的經歷上更加精進。
+        </p>
+	</li>
+    <li>
+		<h3>■ 自我期許</h3>
+		<span>+</span>
+		<p>
+期盼自己能將人生所學的知識與經驗發揮所長，並在我所愛的設計藝術領域找到屬於自己的一片天空，<br>
+進而自我成長為公司帶來更多獲利。請貴公司給我一個機會安排面試，讓我早日在貴公司發揮所長，謝謝!
+        </p>
+	</li>
+
+</ul>  </div>
+  <div id="footer">Copyright © 2016 Chia-yu Liao  All rights reserved.</div>
+</div>
+
+</body>
+</html>
